@@ -1,0 +1,172 @@
+---
+// Import the <Image /> component
+import { Image } from "astro:assets"
+---
+
+<div class="py-20 bg-white">
+  <section class="mb-16 text-center text-gray-800">
+    <p class="text-2xl text-secondary">HOW CAN WE HELP YOU TODAY?</p>
+    <h2 class="mb-20 text-3xl font-bold text-accent">Choose Your Service:</h2>
+
+    <div class="grid lg:gap-x-12 lg:grid-cols-3">
+      <div class="mb-12 lg:mb-0">
+        <div class="block h-full rounded-lg shadow-lg bg-base-100">
+          <div class="flex justify-center">
+            <div
+              class="inline-block p-4 -mt-8 rounded-full shadow-lg bg-primary"
+            >
+              <svg
+                style="color: white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-house-door-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+                  fill="white"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="mb-4 text-lg font-semibold text-primary">Roof Repairs</h3>
+            <div class="flex justify-center mt-3 mb-3 rounded-2xl bg-base-100">
+              <Image
+                class="p-3 rounded-full h-96 max-w-96"
+                src="https://images.unsplash.com/photo-1635424710928-0544e8512eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+                alt="toronto eavestrough cleaning"
+                width={364}
+                height={384}
+                format="avif"
+              />
+            </div>
+            <p class="text-neutral">
+              Protect your home from the elements with our expert roof repair
+              services. We'll diagnose and fix any leaks, cracks, or damage to
+              your roof to ensure it's in top shape for years to come.
+            </p>
+            <div class="pt-4">
+              <a
+                role="button"
+                href="services"
+                class="mb-2 uppercase btn btn-wide btn-outline btn-secondary"
+                >Repairs</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12 lg:mb-0">
+        <div class="block h-full rounded-lg shadow-lg bg-base-100">
+          <div class="flex justify-center">
+            <div
+              class="inline-block p-4 -mt-8 rounded-full shadow-lg bg-primary"
+            >
+              <svg
+                style="color: white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-house"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+                  fill="white"></path>
+                <path
+                  fill-rule="evenodd"
+                  d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+                  fill="white"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="mb-4 text-lg font-semibold text-primary">
+              Roof Replacement
+            </h3>
+            <div class="flex justify-center mt-3 mb-3 bg-base-100">
+              <Image
+                class="p-3 rounded-full h-96 max-w-96"
+                src="https://images.unsplash.com/photo-1627591637320-fcfe8c34b62d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt="roof replacement"
+                width={364}
+                height={384}
+                format="avif"
+              />
+            </div>
+            <p class="text-neutral">
+              Is your roof beyond repair? Our experienced team can help you
+              choose the right replacement roof for your home and install it
+              with precision and care. You can trust us to provide quality
+              workmanship and excellent customer service.
+            </p>
+            <div class="pt-4">
+              <a
+                role="button"
+                href="services"
+                class="mb-2 uppercase btn btn-wide btn-outline btn-secondary"
+                >Replacement</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <div class="block h-full rounded-lg shadow-lg bg-base-100">
+          <div class="flex justify-center">
+            <div
+              class="inline-block p-4 -mt-8 rounded-full shadow-lg bg-primary"
+            >
+              <svg
+                style="color: white"
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                viewBox="0 0 24 24"
+                ><path
+                  d="M13,18h-2v-2h2V18z M15,14H9v6h6V14L15,14z M19,9.3L19,9.3V4h-3v2.6v0L12,3L2,12h3l7-6.31L19,12h3L19,9.3z"
+                  fill="white"></path></svg
+              >
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="mb-4 text-lg font-semibold text-primary">
+              Roof Maintenance
+            </h3>
+            <div class="flex justify-center mt-3 mb-3 bg-base-100">
+              <Image
+                class="p-3 rounded-full h-96 max-w-96"
+                src="https://images.unsplash.com/photo-1631639324100-2ed305cb32a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt="roof maintenance"
+                width={364}
+                height={384}
+                format="avif"
+              />
+            </div>
+            <p class="text-neutral">
+              Keep your roof in great condition and extend its lifespan with our
+              comprehensive roof maintenance services. We'll inspect your roof
+              for any issues, clean it, and make any necessary repairs to
+              prevent costly damage down the line. Regular maintenance is key to
+              avoiding major roofing problems!
+            </p>
+            <div class="pt-4">
+              <a
+                role="button"
+                href="services"
+                class="mb-2 uppercase btn btn-wide btn-outline btn-secondary"
+                >Maintenance</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
