@@ -1,3 +1,8 @@
+---
+import { Image } from "astro:assets";
+
+---
+
 <style>
     img {
         max-width: 100%;
@@ -6,26 +11,30 @@
     }
 </style>
 
-<section class="container my-24 px-6 py-4 mx-auto">
+<section class="container px-6 py-4 mx-auto my-24">
     <!-- Left Side: image -->
 
     <div class="grid lg:gap-6 lg:px-2 lg:grid-cols-2">
-        <div class="mb-4 mt-4 lg:mb-0">
-            <img
+        <div class="mt-4 mb-4 lg:mb-0">
+            <Image
                 src="https://images.unsplash.com/photo-1635424709870-cdc6e64f0e20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
-                alt=""
+                alt=" 2 men on a roof"
+                width={468}
+                height={312}
+                format="avif"
+            
             />
         </div>
 
         <!--right side -->
 
-        <div class="col-end mt-4 lg:mb-0">
+        <div class="mt-4 col-end lg:mb-0">
             <div class="py-4 lg:my-20">
-                <h2 class="text-accent text-3xl text-left mb-4 font-bold">
+                <h2 class="mb-4 text-3xl font-bold text-left text-primary">
                     Our Aim
                 </h2>
 
-                <div class="flex flex-auto px-3 text-lg mb-4">
+                <div class="flex flex-auto px-3 mb-4 text-lg">
                     <p>
                         We believe that exceptional customer service is the key
                         to our success. That's why we go above and beyond to
@@ -42,7 +51,7 @@
                     <a
                         role="button"
                         href="about-us"
-                        class="mb-2 btn btn-wide btn-outline btn-accent uppercase"
+                        class="mb-2 uppercase btn btn-wide btn-outline btn-secondary"
                     >
                         Discover now</a
                     >

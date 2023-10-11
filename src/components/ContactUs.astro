@@ -5,7 +5,7 @@ import { Image } from "astro:assets"
 import myLogo from "../assets/irsc-logo.png"
 ---
 
-<section class="container px-6 py-4 mx-auto my-24">
+<section class="container px-6 py-4 mx-auto my-6">
     <!-- Left Side: image -->
 
     <div class="grid lg:gap-6 lg:px-2 lg:grid-cols-2 lg:divide-x divide-accent">
@@ -84,7 +84,12 @@ import myLogo from "../assets/irsc-logo.png"
         <div class="mt-4 lg:mb-0">
             <div class="py-4">
                 <div class="flex justify-center p-4 mb-4">
-                    <Image class="item-center" src={myLogo} format="avif"alt="This is the company logo" />
+                    <Image class="item-center" 
+                    src={myLogo}
+                    width={250} 
+                    height={250}
+                    format="avif"
+                    alt="This is the company logo" />
                 </div>
                 <div class="flex flex-auto px-3 mb-4 text-black lg:py-4">
                     <p>

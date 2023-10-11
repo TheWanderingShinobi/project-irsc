@@ -1,14 +1,18 @@
-<section class="bg-white dark:bg-gray-900">
+---
+import { Image } from "astro:assets";
+
+---
+<section class="bg-gradient-to-r from-accent to-base-100">
     <div
-        class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
+        class="items-center max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
     >
-        <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <div class="font-light text-black sm:text-lg">
             <h2
-                class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+                class="mb-4 text-4xl font-extrabold tracking-tight text-primary"
             >
                 At Innovative Roofing,
             </h2>
-            <p class="mb-4">
+            <p class="mb-4 text-black">
                 we understand that your roof is more than just a functional
                 component of your property - it's a vital part of your
                 investment, protecting your assets and providing a safe and
@@ -26,15 +30,21 @@
             </p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
-            <img
+            <Image
                 class="w-full rounded-lg"
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
                 alt="office content 1"
+                width={251}
+                height={348}
+                format="avif"
             />
-            <img
-                class="mt-4 w-full lg:mt-10 rounded-lg"
+            <Image
+                class="w-full mt-4 rounded-lg lg:mt-10"
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
                 alt="office content 2"
+                width={251}
+                height={348}
+                format="avif"
             />
         </div>
     </div>

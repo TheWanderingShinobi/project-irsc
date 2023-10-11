@@ -10,8 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.0.1",
     "@astrojs/tailwind": "^5.0.2",
     "astro": "^3.2.4",
+    "astro-compress": "^2.0.15",
+    "astro-robots-txt": "^1.0.0",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0",
     "prettier-plugin-tailwindcss": "^0.5.5",

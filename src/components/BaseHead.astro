@@ -1,7 +1,6 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import "../styles/global.css";
 
 export interface Props {
   title: string;
@@ -12,21 +11,21 @@ export interface Props {
 const {
   title = "Innovative Roofing Systems Canada",
   description = "Quality,Integrity, and reliability are some of the core values that Innovative roofing systems Canada stands by.",
-  image = "/logo.webp",
+  image = "/irsc-logo.png",
 } = Astro.props;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 <link
-  href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
-  rel="stylesheet"
-/>
-<link rel="stylesheet" href="/styles/global.css" />
+    href="https://fonts.bunny.net/css?family=Nunito&display=swap"
+    rel="stylesheet"
+  />
 
 <meta name="generator" content={Astro.generator} />
 
